@@ -1,0 +1,140 @@
+main {
+    width: 100%;
+}
+label{
+    color:hsl(226, 97%, 86%);
+   
+}
+
+input{
+    color:hsl(226, 97%, 86%);
+    background-color: rgb(13, 13, 13);  
+    border-style: none;
+    border-bottom: 1px solid hsl(226, 97%, 86%); 
+}
+
+.form__main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+
+}
+.form___section{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__title{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 10px 20px; 
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px;
+    text-align: center;
+}
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(13, 13, 13);
+    padding: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px;
+}
+.form__div1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form__header__div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form__header__div__label{
+    width: 50%;
+}
+.form__input__firstName{
+    width: 79%;
+}
+.form__input__lastName{
+    width: 88%;
+}
+.form__input__city{
+    width: 94%;
+
+}
+.form__input__zipCode{
+    width: 89%;
+}
+.form__input__birthDate{
+    width: 74%;
+}
+
+.form__header__div__gender{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.form__header__div__gender span{
+    color:hsl(226, 97%, 86%);
+    padding-right: 10px;
+}
+.form__header__div__gender label{
+    padding-right: 10px;
+}
+
+.form__label input{
+    width: 92%;
+}
+.form__grade{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.form__body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.form__body__div__container{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+.form__body__div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form__footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(252, 227, 34);
+    background-color: rgb(13, 13, 13);
+    color: rgb(252, 227, 34);
+    box-shadow:0px -0px 13px -2px  hsl(226, 97%, 86%);
+    -webkit-box-shadow: -0px -0px 13px -2px  hsl(226, 97%, 86%);
+    -moz-box-shadow: -0px -0px 13px -2px  hsl(226, 97%, 86%);
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(252, 227, 34);
+    color: rgb(13, 13, 13);
+}
