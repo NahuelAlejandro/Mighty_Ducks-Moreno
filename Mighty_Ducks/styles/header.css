@@ -11,7 +11,7 @@ h1,h2,h3, dt {
 p, li, dd, th, td {
     letter-spacing: 1px;
     line-height: 1.3;
-    color:#b9c9fe;
+    color:hsl(226, 97%, 86%);
 }
 
 .layout{
